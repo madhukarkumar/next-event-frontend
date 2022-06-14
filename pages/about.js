@@ -1,9 +1,11 @@
 import React from 'react'
+import Header from '../components/Header'
 
 export default function AboutPage() {
   return (
-    <div className='container mx-auto px-4'>
-        About Us
+    <div>
+        <Header/>
+        <p>About Us</p>
     </div>
   )
 }
