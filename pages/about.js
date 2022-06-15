@@ -1,11 +1,16 @@
-import React from 'react'
+import Layout from '../components/Layout'
 import Header from '../components/Header'
+import { Children } from 'react'
 
 export default function AboutPage() {
   return (
-    <div>
-        <Header/>
+    
+      <div>
+        <Header></Header>
         <p>About Us</p>
-    </div>
+        </div>
+    
+    
   )
 }
+ 
